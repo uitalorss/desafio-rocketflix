@@ -1,0 +1,28 @@
+//Variáveis
+$title: #fffcf9;
+$subtitle: #b3b3b3;
+$bg-button: #e9e6e3;
+$background: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%);
+
+//Imports
+@import 'reset';
+@import 'section-main';
+
+body{
+  background: $background no-repeat;
+
+  font-family: 'Poppins', sans-serif;
+
+  @media (max-width: 1080px){
+    font-size: 93.75%;
+  }
+
+  @media (max-width: 720px){
+    font-size: 87.5%;
+  }
+
+  @media (max-width: 540px){
+    font-size: 75%;
+  }
+}
+
