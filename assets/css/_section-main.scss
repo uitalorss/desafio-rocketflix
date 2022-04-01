@@ -1,6 +1,6 @@
 .main{
   padding-top: 8rem;
-  max-width: 70vh;
+  max-width: 90vh;
   height: 100vh;
   margin: 0 auto;
 
@@ -19,6 +19,26 @@
     color: #fff;
   }
 
+  .movieContent{
+    margin-top: 1.875rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    img{
+      width: 50%;
+    }
+
+    h3{
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: #FFFCF9;
+      margin-bottom: 0.5rem;
+    }
+
+    p{
+      line-height: 1.5rem;
+    }
+  }
+
   .action{
     margin-top: 1.875rem;
     button{
@@ -33,6 +53,7 @@
       border-radius: .4rem;
       padding: 0.5rem 1rem;
       margin: 0 auto;
+      cursor: pointer;
     }
 
     p{

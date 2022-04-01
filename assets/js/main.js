@@ -27,7 +27,9 @@ function showMovie(movie, poster){
 
   movieContent.innerHTML = `
     <img src="${IMG_URL}${poster}" />
-    <h3>${titleMovie}</h3>
-    <p>${sinopsysMovie}</p>
+    <div>
+      <h3>${titleMovie}</h3>
+      <p>${sinopsysMovie}</p>
+    </div>
   `
 }
