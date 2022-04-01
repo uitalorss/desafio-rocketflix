@@ -1,0 +1,10 @@
+{
+  "name": "desafio-rocketflix",
+  "version": "1.0.0",
+  "description": "desafio-rocketflix",
+  "main": "main.js",
+  "repository": "https://github.com/uitalorss/desafio-rocketflix.git",
+  "author": "Uítalo",
+  "license": "MIT",
+  "type": "module"
+}
