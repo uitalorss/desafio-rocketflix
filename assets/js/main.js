@@ -13,7 +13,7 @@ function getMovie(){
   .catch(function(){
     const movieContent = document.querySelector('.movieContent');
     movieContent.innerHTML = `
-    <p>Filme não encontrado. :(</p>
+    <p>Esse título não foi encontrado. Por favor, tente novamente. :(</p>
     `
   })
 }
