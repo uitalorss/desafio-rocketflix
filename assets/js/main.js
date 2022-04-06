@@ -25,6 +25,7 @@ function showMovie(movie, poster){
   const titleMovie = movie.title;
   const sinopsysMovie = movie.overview;
   const genres = movie.genres;
+  const popularity = movie.popularity;
 
   movieContent.innerHTML = `
     <img src="${IMG_URL}${poster}" />
@@ -38,6 +39,9 @@ function showMovie(movie, poster){
           return `<li>${genre.name}</li>`
         })}
       </ul>
+
+      <h4>Popularidade</h4>
+      <strong>${popularity}</strong>
     </div>
   `
 }

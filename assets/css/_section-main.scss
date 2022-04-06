@@ -45,11 +45,16 @@
       line-height: 1.5rem;
     }
 
+    strong{
+      font-weight: 500;
+      color: #FFFCF9;
+    }
+
     ul{
       margin-top: 1rem;
       li{
         list-style-type: disc;
-        color: #fff;
+        color: #FFFCF9;
       }
     }
   }
