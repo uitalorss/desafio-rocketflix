@@ -34,8 +34,23 @@
       margin-bottom: 0.5rem;
     }
 
+    h4{
+      font-size: 1.25rem;
+      font-weight: 500;
+      color: #FFFCF9;
+      margin: 1rem 0;
+    }
+
     p{
       line-height: 1.5rem;
+    }
+
+    ul{
+      margin-top: 1rem;
+      li{
+        list-style-type: disc;
+        color: #fff;
+      }
     }
   }
 

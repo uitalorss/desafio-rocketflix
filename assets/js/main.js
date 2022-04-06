@@ -24,12 +24,20 @@ function showMovie(movie, poster){
   const movieContent = document.querySelector('.movieContent');
   const titleMovie = movie.title;
   const sinopsysMovie = movie.overview;
+  const genres = movie.genres;
 
   movieContent.innerHTML = `
     <img src="${IMG_URL}${poster}" />
     <div>
       <h3>${titleMovie}</h3>
       <p>${sinopsysMovie}</p>
+      
+      <h4>Gêneros</h4>
+      <ul>
+        ${genres.map(genre => {
+          return `<li>${genre.name}</li>`
+        })}
+      </ul>
     </div>
   `
 }
