@@ -12,6 +12,7 @@ function getMovie(){
   })
   .catch(function(){
     const movieContent = document.querySelector('.movieContent');
+    movieContent.style.gridTemplateColumns = '1fr';
     movieContent.innerHTML = `
     <p>Esse título não foi encontrado. Por favor, tente novamente. :(</p>
     `
@@ -26,6 +27,8 @@ function showMovie(movie, poster){
   const sinopsysMovie = movie.overview;
   const genres = movie.genres;
   const popularity = movie.popularity;
+  movieContent.style.gridTemplateColumns = '1fr 1fr';
+
 
   movieContent.innerHTML = `
     <img src="${IMG_URL}${poster}" />
