@@ -9,6 +9,7 @@ $background: linear-gradient(43deg, #3498db 0%, #34495e 52%, #e67e22 100%);
 @import 'section-main';
 
 body{
+  height: 100vh;
   background: $background no-repeat;
   font-family: 'Poppins', sans-serif;
 

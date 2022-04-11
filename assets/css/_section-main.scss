@@ -1,7 +1,6 @@
 .main{
-  padding-top: 8rem;
-  max-width: 90vh;
-  height: 100vh;
+  padding-top: 5rem;
+  max-width: 100vh;
   margin: 0 auto;
 
   img{
@@ -40,6 +39,12 @@
 
     p{
       line-height: 1.5rem;
+      max-width: 500ch;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 10;
+      -webkit-box-orient: vertical; 
     }
 
     strong{
